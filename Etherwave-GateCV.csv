@@ -1,42 +1,41 @@
-"Source:","/home/user0/Projekts/Project-Files-MegaSync/Repairs-and-Mods/Moog/Etherwave/Etherwave-GateCV/Etherwave-GateCV.kicad_sch"
-"Date:","So 07 Mai 2023 14:30:33 CEST"
-"Tool:","Eeschema 6.0.11-2627ca5db0~126~ubuntu22.04.1"
-"Generator:","/usr/share/kicad/plugins/bom_csv_grouped_by_value_with_fp.py"
-"Component Count:","76"
-"Ref","Qnty","Value","Cmp name","Footprint","Description","Vendor"
-"C1, C10, C11, ","3","10nF","C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","Unpolarized capacitor",""
-"C4, ","1","220nF","C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","Unpolarized capacitor",""
-"C5, C6, C7, C12, C13, C16, C17, C18, C19, C20, C21, C22, ","12","100nF","C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","Unpolarized capacitor",""
-"C8, C9, ","2","1nF","C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","Unpolarized capacitor",""
-"C14, ","1","330pF","C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","Unpolarized capacitor",""
-"C15, ","1","100pF    50V","C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","Unpolarized capacitor",""
-"D1, D2, ","2","1N4148","1N4148","Diode_SMD:D_SOD-323_HandSoldering","100V 0.15A standard switching diode, DO-35",""
-"D3, D4, D5, ","3","BAT54S","BAT54S","Package_TO_SOT_SMD:SOT-23","schottky barrier diode",""
-"J1, ","1","Etherwave Brd","Conn_01x10","Connector_Molex:Molex_KK-254_AE-6410-10A_1x10_P2.54mm_Vertical","Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)",""
-"J2, ","1","Volume CV","Conn_01x03","Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical","Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",""
-"J3, ","1","Pitch CV","Conn_01x03","Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical","Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",""
-"J4, ","1","Gate","Conn_01x03","Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical","Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",""
-"Q1, Q3, ","2","PMP4501Y","PMP4501Y","Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering","",""
-"Q2, ","1","PMBT3906","MMBT3906","Package_TO_SOT_SMD:SOT-23_Handsoldering","-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23",""
-"R1, ","1","1M1","R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","Resistor",""
-"R2, R20, R21, ","3","1M","R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","Resistor",""
-"R3, ","1","1k","R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","Resistor",""
-"R4, R12, R13, R14, R15, R24, ","6","10k","R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","Resistor",""
-"R5, R7, R30, R32, ","4","47k","R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","Resistor",""
-"R6, R8, R9, R10, R11, ","5","22k","R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","Resistor",""
-"R16, R17, R18, ","3","10M","R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","Resistor",""
-"R19, R33, ","2","470k","R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","Resistor",""
-"R22, ","1","100k","R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","Resistor",""
-"R23, ","1","2k2","R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","Resistor",""
-"R25, R26, ","2","680k","R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","Resistor",""
-"R27, R34, R40, ","3","330R","R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","Resistor",""
-"R28, ","1","220k","R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","Resistor",""
-"R29, ","1","1k PTC","R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","Resistor",""
-"R31, ","1","1M24","R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","Resistor",""
-"RV1, RV2, ","2","50k","R_Potentiometer","Potentiometer_THT:Potentiometer_Bourns_3266Z_Horizontal","Potentiometer",""
-"U1, ","1","LM13700","LM13700","Package_SO:SOIC-16_3.9x9.9mm_P1.27mm","Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers, DIP-16/SOIC-16",""
-"U2, U3, ","2","CD4093","HEF4093B","Package_SO:TSSOP-14_4.4x5mm_P0.65mm","Quad 2-Input NAND Schmitt Trigger, SOIC-14",""
-"U4, ","1","CD4022","4022","Package_SO:TSSOP-16_4.4x5mm_P0.65mm","Johnson Counter (8 states)",""
-"U5, ","1","TL072","TL072","Package_SO:TSSOP-8_3x3mm_P0.65mm","Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8",""
-"U6, ","1","CD4016","4016","Package_SO:SOIC-14_3.9x8.7mm_P1.27mm","Quad Analog Switches",""
-"U7, ","1","TL072","TL072","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8",""
+Etherwave Gate & CV Extension,,
+Riven Hexagon Electronics,,
+,,
+Reference(s),Value,LibPart
+"C1, C10, C11",10nF,Device:C
+C4,220nF,Device:C
+"C5, C6, C7, C16, C17, C18, C19, C20, C21, C22",100nF,Device:C
+"C8, C9",1nF,Device:C
+"C12, C13",100nF,Device:C
+C14,330pF,Device:C
+C15,100pF    50V,Device:C
+"D1, D2",1N4148,Diode:1N4148
+"D3, D4, D5",BAT54S,Diode:BAT54S
+"H1, H2, H3, H4",MountingHole,Mechanical:MountingHole
+J1,Etherwave Brd,Connector_Generic:Conn_01x10
+J2,Volume CV,Connector_Generic:Conn_01x03
+J3,Pitch CV,Connector_Generic:Conn_01x03
+J4,Gate,Connector_Generic:Conn_01x03
+"Q1, Q3",PMP4501Y,Etherwave:PMP4501Y
+Q2,PMBT3906,Transistor_BJT:MMBT3906
+R1,1M1,Device:R
+"R2, R20, R21",1M,Device:R
+R3,1k,Device:R
+"R4, R12, R13, R14, R15, R24",10k,Device:R
+"R5, R7, R30, R32",47k,Device:R
+"R6, R8, R9, R10, R11",22k,Device:R
+"R16, R17, R18",10M,Device:R
+"R19, R33",470k,Device:R
+R22,100k,Device:R
+R23,2k2,Device:R
+"R25, R26",680k,Device:R
+"R27, R34, R40",330R,Device:R
+R28,220k,Device:R
+R29,1k PTC,Device:R
+R31,1M24,Device:R
+"RV1, RV2",50k,Device:R_Potentiometer
+U1,LM13700,Amplifier_Operational:LM13700
+"U2, U3",CD4093,4xxx:HEF4093B
+U4,CD4022,4xxx:4022
+"U5, U7",TL072,Amplifier_Operational:TL072
+U6,CD4016,4xxx:4016

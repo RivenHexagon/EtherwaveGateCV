@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/home/user0/Projekts/Project-Files-MegaSync/Repairs-and-Mods/Moog/Etherwave/Etherwave-GateCV/Etherwave-GateCV.kicad_sch</source>
-    <date>So 07 Mai 2023 14:30:33 CEST</date>
+    <source>/home/user0/Desktop/Projekts/Project-Files-MegaSync/Repairs-and-Mods/Moog/Etherwave/Etherwave-GateCV/Etherwave-GateCV.kicad_sch</source>
+    <date>Do 18 Mai 2023 14:01:22 CEST</date>
     <tool>Eeschema 6.0.11-2627ca5db0~126~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
+        <title>Etherwave Gate &amp; CV Extension</title>
+        <company>Riven Hexagon Electronics</company>
+        <rev>0</rev>
+        <date>2023-05-18</date>
         <source>Etherwave-GateCV.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -107,7 +107,7 @@
     </comp>
     <comp ref="C12">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_1812_4532Metric_Pad1.57x3.40mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Etherwave-GateCV.kicad_sch"/>
@@ -116,7 +116,7 @@
     </comp>
     <comp ref="C13">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_1812_4532Metric_Pad1.57x3.40mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Etherwave-GateCV.kicad_sch"/>
@@ -253,6 +253,42 @@
       <property name="Sheetfile" value="Etherwave-GateCV.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>3d692e1f-b1a5-4a73-80a5-d4eb2a11b0a3</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Etherwave-GateCV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e498b809-36c2-4aa1-ba30-c8056c032db3</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Etherwave-GateCV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab1a437f-5a70-434b-897c-748cd225449a</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Etherwave-GateCV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ef047a17-9f04-4faa-b402-133d0186d6b8</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Etherwave-GateCV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c22a6f6c-a527-478b-b541-dba6c20bc2a7</tstamps>
     </comp>
     <comp ref="J1">
       <value>Etherwave Brd</value>
@@ -659,7 +695,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Etherwave-GateCV.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>f126f849-b553-44f4-9081-fcd205cfb0ba c1209691-0c00-461e-bd61-4614e9ffd543 305a9b1d-826b-4142-ac53-265056c843d8 117bb83b-fd0d-4a7f-99a7-4b0a092f31cd 05e72dc4-f75e-4512-b151-bc15a0309568</tstamps>
+      <tstamps>305a9b1d-826b-4142-ac53-265056c843d8 117bb83b-fd0d-4a7f-99a7-4b0a092f31cd f126f849-b553-44f4-9081-fcd205cfb0ba c1209691-0c00-461e-bd61-4614e9ffd543 05e72dc4-f75e-4512-b151-bc15a0309568</tstamps>
     </comp>
     <comp ref="U2">
       <value>CD4093</value>
@@ -669,7 +705,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Etherwave-GateCV.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>464fecbc-55a7-4385-b512-6d13e3a6ecab d93274b7-351b-4920-88e2-eded809deacb 75092a59-7450-4b7e-b211-381a55ea8a26 b4229c11-2d06-4473-8ac6-81eeb844d1dd 3edbcd5b-e427-4666-86c0-538d2a5b392a</tstamps>
+      <tstamps>d93274b7-351b-4920-88e2-eded809deacb 464fecbc-55a7-4385-b512-6d13e3a6ecab 75092a59-7450-4b7e-b211-381a55ea8a26 b4229c11-2d06-4473-8ac6-81eeb844d1dd 3edbcd5b-e427-4666-86c0-538d2a5b392a</tstamps>
     </comp>
     <comp ref="U3">
       <value>CD4093</value>
@@ -679,7 +715,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Etherwave-GateCV.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>8f6335e3-6c1b-4a3f-9663-2efc3d40fc24 7c5c0ce4-06ee-454a-ab22-11dc5f46beb6 fb869626-22bb-44f4-aa71-05a6526f904f 7b76fcb4-9f19-4a70-ac1f-9e4de014236d 2aa2d284-1ab5-4177-9460-a8ca9c81a135</tstamps>
+      <tstamps>7c5c0ce4-06ee-454a-ab22-11dc5f46beb6 8f6335e3-6c1b-4a3f-9663-2efc3d40fc24 7b76fcb4-9f19-4a70-ac1f-9e4de014236d fb869626-22bb-44f4-aa71-05a6526f904f 2aa2d284-1ab5-4177-9460-a8ca9c81a135</tstamps>
     </comp>
     <comp ref="U4">
       <value>CD4022</value>
@@ -693,13 +729,13 @@
     </comp>
     <comp ref="U5">
       <value>TL072</value>
-      <footprint>Package_SO:TSSOP-8_3x3mm_P0.65mm</footprint>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/tl071.pdf</datasheet>
       <libsource lib="Amplifier_Operational" part="TL072" description="Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Etherwave-GateCV.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>7bfba61b-6752-4a45-9ee6-5984dcb15041 2451d668-51ff-44ab-acfe-cfe666fa0c7e 07b7ccce-8895-49f2-b220-e85ac43040b1</tstamps>
+      <tstamps>2451d668-51ff-44ab-acfe-cfe666fa0c7e 7bfba61b-6752-4a45-9ee6-5984dcb15041 07b7ccce-8895-49f2-b220-e85ac43040b1</tstamps>
     </comp>
     <comp ref="U6">
       <value>CD4016</value>
@@ -709,7 +745,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Etherwave-GateCV.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>f0d42d5a-23a3-4952-b2d2-7abafdd123a9 32ab08ae-361c-4b6e-9ac8-031a37e01571 537c74a2-24ab-4953-aadf-87353f9087ac 42c2ff6d-4aad-453f-bec2-d3f8da7e7f38 0838162d-3076-4e6f-95d3-18d116e2e57b</tstamps>
+      <tstamps>32ab08ae-361c-4b6e-9ac8-031a37e01571 f0d42d5a-23a3-4952-b2d2-7abafdd123a9 42c2ff6d-4aad-453f-bec2-d3f8da7e7f38 537c74a2-24ab-4953-aadf-87353f9087ac 0838162d-3076-4e6f-95d3-18d116e2e57b</tstamps>
     </comp>
     <comp ref="U7">
       <value>TL072</value>
@@ -1010,6 +1046,18 @@
         <pin num="6" name="C1" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
     <libpart lib="Transistor_BJT" part="MMBT3906">
       <description>-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23</description>
       <docs>https://www.onsemi.com/pub/Collateral/2N3906-D.PDF</docs>
@@ -1046,7 +1094,10 @@
       <uri>/usr/share/kicad/symbols//Diode.kicad_sym</uri>
     </library>
     <library logical="Etherwave">
-      <uri>/home/user0/Projekts/Project-Files-MegaSync/Repairs-and-Mods/Moog/Etherwave/Etherwave-GateCV/Etherwave.kicad_sym</uri>
+      <uri>/home/user0/Desktop/Projekts/Project-Files-MegaSync/Repairs-and-Mods/Moog/Etherwave/Etherwave-GateCV/Etherwave.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
     </library>
     <library logical="Transistor_BJT">
       <uri>/usr/share/kicad/symbols//Transistor_BJT.kicad_sym</uri>
@@ -1244,53 +1295,53 @@
       <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="R34" pin="1" pintype="passive"/>
     </net>
-    <net code="23" name="Net-(Q1-Pad1)">
+    <net code="23" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(Q1-Pad1)">
       <node ref="Q1" pin="1" pinfunction="B1" pintype="input"/>
       <node ref="R22" pin="1" pintype="passive"/>
     </net>
-    <net code="24" name="Net-(Q1-Pad2)">
+    <net code="26" name="Net-(Q1-Pad2)">
       <node ref="Q1" pin="2" pinfunction="B2" pintype="input"/>
       <node ref="R18" pin="2" pintype="passive"/>
       <node ref="R19" pin="1" pintype="passive"/>
     </net>
-    <net code="25" name="Net-(Q1-Pad3)">
+    <net code="27" name="Net-(Q1-Pad3)">
       <node ref="Q1" pin="3" pinfunction="C2" pintype="passive"/>
       <node ref="R20" pin="2" pintype="passive"/>
       <node ref="U3" pin="6" pintype="input"/>
     </net>
-    <net code="26" name="Net-(Q1-Pad4)">
+    <net code="28" name="Net-(Q1-Pad4)">
       <node ref="Q1" pin="4" pinfunction="E2" pintype="passive"/>
       <node ref="Q1" pin="5" pinfunction="E1" pintype="passive"/>
       <node ref="R21" pin="1" pintype="passive"/>
     </net>
-    <net code="27" name="Net-(Q2-Pad2)">
+    <net code="29" name="Net-(Q2-Pad2)">
       <node ref="Q2" pin="2" pinfunction="E" pintype="passive"/>
       <node ref="R25" pin="2" pintype="passive"/>
       <node ref="R26" pin="2" pintype="passive"/>
     </net>
-    <net code="28" name="Net-(Q2-Pad3)">
+    <net code="30" name="Net-(Q2-Pad3)">
       <node ref="Q2" pin="3" pinfunction="C" pintype="passive"/>
       <node ref="U1" pin="16" pintype="input"/>
     </net>
-    <net code="29" name="Net-(Q3-Pad1)">
+    <net code="31" name="Net-(Q3-Pad1)">
       <node ref="Q3" pin="1" pinfunction="B1" pintype="input"/>
       <node ref="R29" pin="1" pintype="passive"/>
       <node ref="R32" pin="2" pintype="passive"/>
       <node ref="R33" pin="2" pintype="passive"/>
     </net>
-    <net code="30" name="Net-(Q3-Pad4)">
+    <net code="32" name="Net-(Q3-Pad4)">
       <node ref="Q3" pin="4" pinfunction="E2" pintype="passive"/>
       <node ref="Q3" pin="5" pinfunction="E1" pintype="passive"/>
       <node ref="R30" pin="1" pintype="passive"/>
-    </net>
-    <net code="31" name="Net-(R1-Pad1)">
-      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="R1" pin="1" pintype="passive"/>
-    </net>
-    <net code="32" name="Net-(R3-Pad1)">
-      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
-      <node ref="R3" pin="1" pintype="passive"/>
-      <node ref="R4" pin="2" pintype="passive"/>
     </net>
     <net code="33" name="Net-(R6-Pad1)">
       <node ref="R6" pin="1" pintype="passive"/>
@@ -1407,13 +1458,13 @@
       <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive+no_connect"/>
     </net>
     <net code="59" name="unconnected-(J2-Pad2)">
-      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
     </net>
     <net code="60" name="unconnected-(J3-Pad2)">
-      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
     </net>
     <net code="61" name="unconnected-(J4-Pad2)">
-      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
     </net>
     <net code="62" name="unconnected-(U1-Pad2)">
       <node ref="U1" pin="2" pinfunction="DIODE_BIAS" pintype="input+no_connect"/>

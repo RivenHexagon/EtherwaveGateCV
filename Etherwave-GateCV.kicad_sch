@@ -4,6 +4,13 @@
 
   (paper "A3")
 
+  (title_block
+    (title "Etherwave Gate & CV Extension")
+    (date "2023-05-18")
+    (rev "0")
+    (company "Riven Hexagon Electronics")
+  )
+
   (lib_symbols
     (symbol "4xxx:4016" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at -7.62 8.89 0)
